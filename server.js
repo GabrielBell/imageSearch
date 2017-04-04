@@ -22,7 +22,7 @@ app.use('/api/imagesearch', imageSearch);
 app.use('/api/latest', latest);
 
 app.get('/', function(req,res){
-	res.render('index', {title: 'Image Search Microservice', message:'Welcome to Image Search Microservice'})
+	res.render('index', {title: 'Image Search Microservice', message:'Welcome to Image Search Microservice'});
 })
 
 

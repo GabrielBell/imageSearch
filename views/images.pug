@@ -1,0 +1,13 @@
+ul
+	for item in results
+		li= item.title
+		ul
+			li
+				a(href=item.url) original image
+			li
+				a(href=item.thumbnail) thumbnail
+			li context=
+				a(href=item.context)= item.context
+				
+
+				
